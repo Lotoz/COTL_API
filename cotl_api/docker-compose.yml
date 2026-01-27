@@ -1,0 +1,33 @@
+services:
+  web:
+    build: .
+    container_name: cotl_api_web
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8000:80"
+    networks:
+      - cotl-network
+
+  db:
+    image: mariadb:latest
+    container_name: cotl_api_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: cotl_api
+    networks:
+      - cotl-network
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: cotl_pma
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+    networks:
+      - cotl-network
+
+networks:
+  cotl-network:
+    driver: bridge
