@@ -22,3 +22,12 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+/vendor
+/.run
+.env
+.phpunit.result.cache
+docker-compose.override.yml
+/public/storage
+/storage/*.key
+/node_modules
+.DS_Store
