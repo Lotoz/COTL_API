@@ -207,7 +207,7 @@ In the `pictures/` folder you will find visual examples of requests using Thunde
 
 #### Update Follower
 
-![updateFollower](./pictures/updateFollower.png)
+![updateFollower](./pictures/updatefollower.png)
 
 #### Delete Follower
 
