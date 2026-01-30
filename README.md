@@ -207,7 +207,7 @@ En la carpeta `pictures/` encontrarás ejemplos visuales de las peticiones usand
 
 #### Actualizacion Follower
 
-![updateFollower](./pictures/updateFollower.png)
+![updateFollower](./pictures/updatefollower.png)
 
 #### Borrar Follower
 
