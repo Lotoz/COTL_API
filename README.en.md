@@ -98,11 +98,6 @@ After running the setup, you can use these credentials to test the API:
 - `POST /api/login` - Login user
 - `POST /api/logout` - Logout user (requires authentication)
 
-### Users
-
-- `GET /api/user` - Get authenticated user profile
-- `PUT /api/user` - Update profile (requires authentication)
-
 ### Followers
 
 - `GET /api/followers` - List all followers
@@ -189,12 +184,38 @@ Accept: application/json
 
 In the `pictures/` folder you will find visual examples of requests using Thunder Client:
 
-- `register.png` - User registration
-- `login.png` - Login
-- `create_follower.png` - Create follower
-- `ist_followers.png` - List followers
-- `update_follower.png` - Update follower
-- `delete_follower.png` - Delete follower
+### Operations Login
+
+#### Login
+
+![login](./pictures/login.png)
+
+#### Register
+
+![register](./pictures/register.png)
+
+#### Logout
+
+![logout](./pictures/logout.png)
+
+
+### Followers Pictures
+
+#### Create Follower
+
+![createFollower](./pictures/createFollower.png)
+
+#### Update Follower
+
+![updateFollower](./pictures/updateFollower.png)
+
+#### Delete Follower
+
+![deleteFollower](./pictures/delete.png)
+
+#### Get Follower 
+
+![getFollower](./pictures/followersGET.png)
 
 ## 📁 Project Structure
 

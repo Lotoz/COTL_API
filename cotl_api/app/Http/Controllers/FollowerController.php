@@ -8,13 +8,13 @@ use Illuminate\Support\Facades\Gate;
 
 class FollowerController extends Controller
 {
-    // 1. LISTAR: Solo los seguidores del usuario autenticado
+    // Solo los seguidores del usuario autenticado
     public function index(Request $request)
     {
         return response()->json($request->user()->followers);
     }
 
-    // 2. CREAR: Valida los 6 campos requeridos
+    // Valida los 6 campos requeridos
     public function store(Request $request)
     {
         $validated = $request->validate([
@@ -32,14 +32,14 @@ class FollowerController extends Controller
         return response()->json($follower, 201);
     }
 
-    // 3. MOSTRAR: Ver un seguidor específico
+    //Ver un seguidor específico
     public function show(Follower $follower)
     {
         $this->authorizeOwner($follower);
         return response()->json($follower);
     }
 
-    // 4. ACTUALIZAR: Modificar datos del seguidor
+    // Modificar datos del seguidor
     public function update(Request $request, Follower $follower)
     {
         $this->authorizeOwner($follower);
@@ -55,7 +55,7 @@ class FollowerController extends Controller
         return response()->json($follower);
     }
 
-    // 5. ELIMINAR: Borrado directo (sin formularios POST)
+    // Borrado directo (sin formularios POST)
     public function destroy(Follower $follower)
     {
         $this->authorizeOwner($follower);

@@ -184,12 +184,39 @@ Accept: application/json
 
 En la carpeta `pictures/` encontrarás ejemplos visuales de las peticiones usando Thunder Client:
 
-- `register.png` - Registro de usuario
-- `login.png` - Inicio de sesión
-- `create_follower.png` - Crear seguidor
-- `ist_followers.png` - Listar seguidores
-- `update_follower.png` - Actualizar seguidor
-- `delete_follower.png` - Eliminar seguidor
+### Operaciones Login
+
+#### Login
+
+![login](./pictures/login.png)
+
+#### Registro
+
+![register](./pictures/register.png)
+
+#### Logout
+
+![logout](./pictures/logout.png)
+
+
+### Followers Capturas
+
+#### Creacion Follower
+
+![createFollower](./pictures/createFollower.png)
+
+#### Actualizacion Follower
+
+![updateFollower](./pictures/updateFollower.png)
+
+#### Borrar Follower
+
+![deleteFollower](./pictures/delete.png)
+
+#### Obtener Follower 
+
+![getFollower](./pictures/followersGET.png)
+
 
 ## 📁 Estructura del Proyecto
 
