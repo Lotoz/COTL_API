@@ -137,12 +137,12 @@ Thunder Client es una extensión VS Code que facilita las pruebas de la API. Aqu
 - Body (JSON):
 
   ```json
- {
-  "name": "Lotoz",
-  "email": "lotoz@cult.com",
-  "password": "password123z",
-  "password_confirmation": "password123z"
-}
+   {
+      "name": "Lotoz",
+      "email": "lotoz@cult.com",
+      "password": "password123z",
+      "password_confirmation": "password123z"
+  }
   ```
 
 #### 2. Iniciar sesión
