@@ -98,11 +98,6 @@ Después de ejecutar el setup, puedes usar estas credenciales para probar la API
 - `POST /api/login` - Iniciar sesión
 - `POST /api/logout` - Cerrar sesión (requiere autenticación)
 
-### Usuarios
-
-- `GET /api/user` - Obtener perfil del usuario autenticado
-- `PUT /api/user` - Actualizar perfil (requiere autenticación)
-
 ### Seguidores
 
 - `GET /api/followers` - Listar todos los seguidores
